@@ -1,7 +1,11 @@
 import LineGraph from "./SensorCharts";
 import { useState } from "react";
 
-const targetUrl = "ws://192.168.1.94/ws"
+//const targetUrl = "ws://192.168.133.118/ws"
+//const targetUrl = "ws://192.168.1.94/ws"
+//const targetUrl = "ws://192.168.7.118/ws"
+
+const targetUrl = "ws://192.168.7.118/ws"
 const ws = new WebSocket(targetUrl)
 
 export default function GraphsList() {

@@ -29,7 +29,7 @@ export default function LineGraph(props) {
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
         <XAxis dataKey="time" />
         <YAxis />
-        <Tooltip />
+        <Tooltip />  
         <Brush />
       </LineChart>
     </>
