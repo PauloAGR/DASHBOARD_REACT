@@ -3,24 +3,45 @@ import '../styles/Login.css';
 
 const Login = () => {
     return(
-        <div className="login">
-            <div className="form-container">
-                <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
+        <section class="contenedor">
+        <article>
+            <h2>Grupo 1</h2>
+            <h3>Integrantes</h3>
+            <ul>
+                <li>Juliana Zuñiga</li>
+                <li>Biyeidy Zambrano</li>
+                <li>Franki Alemeza Samboni</li>
+            </ul>
+            <p>Esta grafica es la indica el valor del voltaje mediante un potenciometro</p>
+            <br/>
+            <button class="boton" onclick="window.location.href='graficaTemp.html'"> Ver grafica</button>
+            
+        </article>
+        <article>
+            <h2>Grupo 2</h2>
+            <h3>Integrantes</h3>
+            <ul>
+                <li>Camila Sotelo</li>
+                <li>Juan Pablo Garzon</li>
+                <li>David Guerrero</li>
+            </ul>
+            <p>Esta grafica es la indica el valor de voltaje mediante un potenciometro</p>
+            <button class="boton" onclick="window.location.href='graficaTemp2.html'">Ver grafica</button>
 
-                <h1 className="title">Create a new password</h1>
-                <p className="subtitle">Enter a new password for your account</p>
-
-                <form action="/" className="form">
-                    <label for="password" className="label">Password</label>
-                    <input type="password" id="password" placeholder="*********" className="input input-password" />
-
-                    <label for="new-passwrd" className="label">Re-enter password</label>
-                    <input type="password" id="new-passwrd" placeholder="*********" className="input input-password" />
-
-                    <input type="submit" value="Confirm" className="primary-button login-button"/>
-                </form>
-            </div>
-        </div>
+        </article>
+        <article>
+            <h2>Grupo 3</h2>
+            <h3>Integrantes</h3>
+            <ul>
+                <li>Daniel Morales</li>
+                <li>Paulo Guerrero</li>
+                <br/>
+            </ul>
+            <p>Esta grafica es la indica un sensor de temperatura</p>
+            <br/>
+            <button class="boton" onclick="window.location.href='graficaTemp3.html'">Ver grafica</button>
+        </article>
+    </section>
     );
 }
 
