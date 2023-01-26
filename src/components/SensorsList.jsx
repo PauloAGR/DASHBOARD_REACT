@@ -29,6 +29,10 @@ export default function GraphsList() {
     <>
       <LineGraph data={data} />
       <LineGraph data={data} />
+      <LineGraph data={data} />
+      <LineGraph data={data} />
+      <LineGraph data={data} />
+      <LineGraph data={data} />
     </>
   );
 }

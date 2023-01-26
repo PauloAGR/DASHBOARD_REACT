@@ -18,13 +18,13 @@ nav{
     justify-content: space-between;
     background-color:lightcyan;
 }
-.iot{
-    width: 64px;
-    margin: 40px 40px;
-}
 .logo{
     width: 100px;
     margin:20px 40px;
+}
+.iot{
+    width: 64px;
+    margin: 40px 40px;
 }
    
 .titulo{
