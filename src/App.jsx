@@ -1,9 +1,15 @@
-import Sensores from "./components/SensorsList"
-
+import Sensores from "./components/SensorsList";
+import SensorWS from "./hooks/SensorWS";
 function App() {
-   return (
+  return (
     <Sensores />
-  )
+    // <>
+    //   <SensorWS url={"ws://192.168.1.96/ws"} />
+    //   <SensorWS />
+    //   <SensorWS />
+    // </>
+    //<SensorWS />
+  );
 }
 
-export default App
+export default App;

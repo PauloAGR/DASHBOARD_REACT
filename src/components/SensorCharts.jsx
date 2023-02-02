@@ -14,6 +14,7 @@ export default function LineGraph(props) {
 
   useEffect(()=>{
     setData(props.data)
+    console.log(props.data)
   }, [props])
 
   return (
