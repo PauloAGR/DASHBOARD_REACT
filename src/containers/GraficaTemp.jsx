@@ -10,7 +10,7 @@ const GraficaTemp = () => {
             <Header/>
             <section>
                 <div class="contenedor">
-                    <a href="/Login" class="button">INICIO</a>
+                    <a href="/" class="button">INICIO</a>
                 </div>
                 <section>
                     <div class="contenedor-grafica">
